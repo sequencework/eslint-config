@@ -1,8 +1,10 @@
+#! /usr/bin/env node
+
 const path = require('path')
 const fs = require('fs')
 const chalk = require('chalk')
 
-const formatPkgJson = require('./format-pkg')
+const formatPkgJson = require('../lib/format-pkg')
 
 const PKG_NAME = 'package.json'
 

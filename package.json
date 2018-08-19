@@ -4,13 +4,14 @@
   "main": "index.js",
   "license": "MIT",
   "bin": {
-    "sequence-lint-init": "./lib/init.js"
+    "sequence-lint-init": "bin/init.js"
   },
   "files": [
     "index.js",
     "react.js",
     "lib",
-    "init-configs"
+    "init-configs",
+    "bin"
   ],
   "peerDependencies": {
     "eslint": ">=5"
@@ -47,7 +48,7 @@
     "semi": false
   },
   "eslintConfig": {
-    "extends": "@sequencework"
+    "extends": "./index.js"
   },
   "lint-staged": {
     "*.js": [
