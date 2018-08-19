@@ -36,4 +36,4 @@ yarn install
 
 ### More
 
-###### Inspired by [@zeit's eslint config](https://github.com/zeit/eslint-config-base)
+Shamelessly inspired by [@zeit's eslint config](https://github.com/zeit/eslint-config-base)
