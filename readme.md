@@ -3,8 +3,8 @@
 ### 🏎 Short "How to use"
 
 ```
-yarn add @sequencework/eslint-config
-yarn sequence-lint-config
+yarn add @sequencework/eslint-config --dev
+yarn sequence-lint-init
 yarn install
 ```
 
@@ -13,13 +13,13 @@ yarn install
 Install this package :
 
 ```
-yarn add @sequencework/eslint-config
+yarn add @sequencework/eslint-config --dev
 ```
 
 It contains a script to _initialize_ your package. Run it like this :
 
 ```
-yarn sequence-lint-config
+yarn sequence-lint-init
 ```
 
 The script will rewrite your package.json to add dev dependencies, pre-commit hooks (with husky), lint-staged, ...
